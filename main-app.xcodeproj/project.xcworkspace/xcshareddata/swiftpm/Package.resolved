@@ -1,0 +1,15 @@
+{
+  "originHash" : "6f3c554c2cae53fe316578079c9440a6f2854572b947e5c664c785786371d3e5",
+  "pins" : [
+    {
+      "identity" : "ios-modular-app-profile",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/chiyun69/ios-modular-app-profile.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "4c444696d207e29a8c5725a461bee15e033f9b4c"
+      }
+    }
+  ],
+  "version" : 3
+}

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		418201CA2DB4BC8B00D60EC2 /* Profile in Frameworks */ = {isa = PBXBuildFile; productRef = 418201C92DB4BC8B00D60EC2 /* Profile */; };
+		4123D25E2DB4C0A900D1B32F /* Profile in Frameworks */ = {isa = PBXBuildFile; productRef = 4123D25D2DB4C0A900D1B32F /* Profile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				418201CA2DB4BC8B00D60EC2 /* Profile in Frameworks */,
+				4123D25E2DB4C0A900D1B32F /* Profile in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,7 +125,7 @@
 			);
 			name = "main-app";
 			packageProductDependencies = (
-				418201C92DB4BC8B00D60EC2 /* Profile */,
+				4123D25D2DB4C0A900D1B32F /* Profile */,
 			);
 			productName = "main-app";
 			productReference = 418FBBF62DB45A1D00D64AF0 /* main-app.app */;
@@ -210,7 +210,7 @@
 			mainGroup = 418FBBED2DB45A1D00D64AF0;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				418201C72DB4BC7A00D60EC2 /* XCLocalSwiftPackageReference "../Profile" */,
+				4123D25C2DB4C08000D1B32F /* XCRemoteSwiftPackageReference "ios-modular-app-profile" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 418FBBF72DB45A1D00D64AF0 /* Products */;
@@ -611,17 +611,21 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCLocalSwiftPackageReference section */
-		418201C72DB4BC7A00D60EC2 /* XCLocalSwiftPackageReference "../Profile" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = ../Profile;
+/* Begin XCRemoteSwiftPackageReference section */
+		4123D25C2DB4C08000D1B32F /* XCRemoteSwiftPackageReference "ios-modular-app-profile" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/chiyun69/ios-modular-app-profile.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
 		};
-/* End XCLocalSwiftPackageReference section */
+/* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		418201C92DB4BC8B00D60EC2 /* Profile */ = {
+		4123D25D2DB4C0A900D1B32F /* Profile */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 418201C72DB4BC7A00D60EC2 /* XCLocalSwiftPackageReference "../Profile" */;
+			package = 4123D25C2DB4C08000D1B32F /* XCRemoteSwiftPackageReference "ios-modular-app-profile" */;
 			productName = Profile;
 		};
 /* End XCSwiftPackageProductDependency section */
